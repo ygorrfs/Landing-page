@@ -1,0 +1,122 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.container-geral {
+  width: 100%;
+}
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  background-image: linear-gradient(
+    to right,
+    rgb(181, 198, 184),
+    rgb(19, 95, 129)
+  );
+}
+.logo {
+  margin-left: 300px;
+}
+nav img {
+  width: 80px;
+  height: 80px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  margin-left: 500px;
+}
+nav ul,
+nav li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  padding: 30px;
+  font-size: 12px;
+}
+nav li:hover {
+  color: rgb(255, 99, 150);
+  transition: all 200ms linear;
+}
+button {
+  background-color: rgb(255, 99, 150);
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  color: white;
+  font-size: 12px;
+  border: 1px solid rgb(255, 99, 150);
+  transition: all 200ms linear;
+}
+button:hover {
+  background-color: #fff;
+  color: #000;
+}
+section img {
+  width: 100%;
+  height: 600px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url(Assets/IMG/reaching-your-potential.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.left {
+  margin-left: 60%;
+  margin-top: 100px;
+}
+h1 {
+  font-size: 50px;
+}
+h5 {
+  font-size: 20px;
+}
+section button {
+  width: 250px;
+  height: 45px;
+  transition: all 200ms linear;
+}
+section button:hover {
+  background-color: #fff;
+  color: #000;
+}
+.container-1 {
+  display: flex;
+}
+section img {
+  width: 120px;
+  height: 100px;
+}
+.img-1,
+.img-2,
+.img-3,
+.img-4 {
+  margin: 100 100 0 100;
+}
+section figcaption {
+  color: #fff;
+  padding-top: 10px;
+  text-decoration: none;
+}
+section figcaption:hover {
+  color: rgb(255, 99, 150);
+  transition: all 200ms linear;
+}
